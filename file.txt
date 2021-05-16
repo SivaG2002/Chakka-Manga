@@ -1,0 +1,5 @@
+welcomee A1
+git basic concepts
+git bacis installation
+repositary creation
+data collection
