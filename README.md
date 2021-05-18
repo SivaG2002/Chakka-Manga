@@ -7,3 +7,6 @@ Day 1<br>
 &emsp;|->Basic installations<br>
 &emsp;|->Repository creation<br>
 &emsp;|->Data collection<br>
+Day 2<br>
+&emsp;|->Data collection<br>
+&emsp;|->Training model<br>
