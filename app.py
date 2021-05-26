@@ -14,7 +14,7 @@ def index():
       return render_template("index.html",data="hey")
 
 
-@app.route("/prediction", methods=["POST"])
+@app.route("/", methods=["POST"])
 def prediction():
 
   f= request.files['img']
@@ -38,11 +38,11 @@ def prediction():
   img = np.expand_dims(img, axis=0) ##expanding the dimensions
   output = model.predict(img)
   if output[0][0] > output[0][1]:
-          result = "manga"
+          result = "chakka"
   else:
-           result = "chakka"
+           result = "manga"
 
-  return render_template("prediction.html",prediction=result)
+  return render_template("index.html",prediction=result)
 
 
 
